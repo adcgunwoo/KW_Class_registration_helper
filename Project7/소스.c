@@ -34,7 +34,7 @@ int main(void) {
 	int ge = 0; // 선택한 균형교양 수 확인용 변수
 	int ge_credits[6] = { 0, 0, 0, 0, 0, 0 }; // 균형교양의 학점 확인용 변수
 	int day_num = 99; // 공강 날짜 선택용 변수
-	int lec = 0; // 하루에 4개 이상의 강의 포함 여부
+	int lec = 0; // 하루에 4개 이상의 강의 포함  동의 여부
 	int lectures[5] = { 0, 0, 0, 0, 0 };// 하루에 4개이상의 강의가 포함되었는지 확인
 	int timetable_number = 0; // 출력된 시간표의 수
 
